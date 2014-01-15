@@ -1,0 +1,21 @@
+{
+  "name": "tdd-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script tests/**/*_test.coffee"
+  },
+  "author": "Dima Zudochkin <zudochkin@rambler.ru> (http://zudochk.in/)",
+  "license": "ISC",
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.17.0",
+    "sinon": "~1.7.3",
+    "coffee-script": "~1.6.3"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "request": "~2.31.0"
+  }
+}
